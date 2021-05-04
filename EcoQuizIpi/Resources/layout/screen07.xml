@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="@android:color/white"
+    >
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+    >
+		<ImageView
+			android:layout_width="500px"
+			android:layout_height="350px"
+			android:layout_gravity="center_horizontal"
+			tools:src="@drawable/etoile_rouge"
+        />
+
+		<ImageView
+			android:layout_width="500px"
+			android:layout_height="350px"
+			android:scaleType="fitCenter"
+			android:layout_gravity="center_horizontal"
+			tools:src="@drawable/bravo_dommage"
+        />
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal"
+			android:layout_marginLeft="33px"
+			android:layout_marginRight="33px"
+        >
+
+			<ImageButton
+				android:layout_width="350px"
+				android:layout_height="200px"
+				android:scaleType="fitCenter"
+				android:backgroundTint="@android:color/holo_blue_dark"
+				tools:src="@drawable/maison"
+            />
+
+			<ImageButton
+				android:layout_width="350px"
+				android:layout_height="200px"
+				android:scaleType="fitCenter"
+				android:backgroundTint="@android:color/holo_blue_dark"
+				tools:src="@drawable/fleche_rejouer"
+            />
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/navigation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="0dp"
+        android:layout_marginStart="0dp"
+        android:background="?android:attr/windowBackground"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/navigation"
+        android:layout_marginBottom="50px"
+        />
+
+
+</RelativeLayout>

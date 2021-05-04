@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="289.0dp"
+        android:background="@drawable/etoile_verte"
+        android:scaleType="fitCenter"
+        android:gravity="center"
+        android:text=""
+        android:textSize="70dp"
+        android:id="@+id/tvScore"
+        />
+
+    <ImageView
+        android:src="@drawable/bravo"
+        android:layout_width="match_parent"
+        android:layout_height="91.0dp"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:id="@+id/imgBravo"  />
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout01"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="90dp"
+        android:paddingRight="90dp">
+        <ImageButton
+            android:src="@drawable/maison"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:id="@+id/btnHome"
+            android:layout_alignParentLeft="true"
+            android:scaleType="fitCenter"
+            android:background="#3d8af7"
+           />
+        <ImageButton
+            android:src="@drawable/fleche_rejouer"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:id="@+id/btnRestart"
+            android:scaleType="fitCenter"
+            android:layout_alignParentRight="true"
+            android:background="#3d8af7"
+            />
+    </RelativeLayout>
+
+</LinearLayout>

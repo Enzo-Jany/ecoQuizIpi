@@ -1,0 +1,64 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/enzojany/Projects/EcoQuizIpi/EcoQuizIpi/EcoQuizIpi.csproj": {}
+  },
+  "projects": {
+    "/Users/enzojany/Projects/EcoQuizIpi/EcoQuizIpi/EcoQuizIpi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/enzojany/Projects/EcoQuizIpi/EcoQuizIpi/EcoQuizIpi.csproj",
+        "projectName": "EcoQuizIpi",
+        "projectPath": "/Users/enzojany/Projects/EcoQuizIpi/EcoQuizIpi/EcoQuizIpi.csproj",
+        "packagesPath": "/Users/enzojany/.nuget/packages/",
+        "outputPath": "/Users/enzojany/Projects/EcoQuizIpi/EcoQuizIpi/obj/",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "/Users/enzojany/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid11.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid11.0": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid11.0": {
+          "dependencies": {
+            "Xamarin.AndroidX.AppCompat": {
+              "target": "Package",
+              "version": "[1.2.0.7, )"
+            },
+            "Xamarin.AndroidX.Arch.Core.Common": {
+              "target": "Package",
+              "version": "[2.1.0.8, )"
+            },
+            "Xamarin.AndroidX.Arch.Core.Runtime": {
+              "target": "Package",
+              "version": "[2.1.0.8, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.6.1, )"
+            },
+            "Xamarin.Google.Android.Material": {
+              "target": "Package",
+              "version": "[1.3.0.1, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.7.335, )"
+            }
+          }
+        }
+      }
+    }
+  }
+}

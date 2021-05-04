@@ -1,0 +1,38 @@
+﻿<Properties StartupConfiguration="{B981364C-0F26-4AC5-87CA-B71B4F5ABD3B}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="EcoQuizIpi/Activities/Screen01.cs">
+    <Files>
+      <File FileName="EcoQuizIpi/Activities/Screen07.cs" Line="1" Column="1" />
+      <File FileName="EcoQuizIpi/Activities/Screen06.cs" Line="1" Column="1" />
+      <File FileName="EcoQuizIpi/Resources/layout/screen06.xml" Line="1" Column="1" />
+      <File FileName="EcoQuizIpi/Activities/Screen04.cs" Line="109" Column="61" />
+      <File FileName="EcoQuizIpi/MainActivity.cs" Line="1" Column="1" />
+      <File FileName="EcoQuizIpi/Resources/layout/screen01.xml" Line="1" Column="1" />
+      <File FileName="EcoQuizIpi/Resources/layout/screen02.xml" Line="1" Column="1" />
+      <File FileName="EcoQuizIpi/Activities/Screen01.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="EcoQuizIpi" expanded="True">
+            <Node name="EcoQuizIpi" expanded="True">
+              <Node name="Activities" expanded="True">
+                <Node name="Screen01.cs" selected="True" />
+              </Node>
+              <Node name="Resources" expanded="True">
+                <Node name="layout" expanded="True" />
+                <Node name="menu" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.EcoQuizIpi AndroidDesignerPreferredTheme="AppTheme" AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.pixel_2_pie_9_0_-_api_28" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

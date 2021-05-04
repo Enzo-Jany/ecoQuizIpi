@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        >
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Voulez-vous vraiment quitter la partie en cours ?"
+        android:textAlignment="center"
+        android:fontFamily="cursive"
+        android:textSize="55px"
+        android:id="@+id/textView1"/>
+    </LinearLayout>
+   
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <Button
+            android:text="OUI"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnOui"
+            android:layout_marginRight="14dp"
+            android:onClick="BtnOuiOnclick" />
+        <Button
+            android:text="NON"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="14dp"
+            android:id="@+id/btnNon"
+            android:onClick="BtnNonOnclick"/>
+    </LinearLayout>
+    
+</LinearLayout>

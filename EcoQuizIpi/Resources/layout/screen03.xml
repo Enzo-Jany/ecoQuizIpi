@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="20px"
+            android:layout_marginBottom="50px"
+            android:id="@+id/linearLayout0">
+        
+            <ImageView
+                android:src="@drawable/logo"
+                android:layout_width="600px"
+                android:layout_height="600px"
+                android:id="@+id/imageView1" />
+         </LinearLayout>
+
+    <!-- New Game-->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="40px"
+            android:id="@+id/linearLayout2">
+
+            <Button
+                android:text="New Game"
+                android:layout_width="400px"
+                android:layout_height="match_parent"
+                android:background="#0000FF"
+                android:id="@+id/btnNewGame" />
+
+        </LinearLayout>
+
+         <!-- Game in Progress-->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="40px"
+            android:bottomRightRadius="10px"
+            android:bottomLeftRadius="10px"
+            android:topLeftRadius="10px"
+            android:topRightRadius="10px"
+            android:id="@+id/linearLayout3">
+
+            <Button
+                android:text="Game in progress"
+                android:layout_width="400px"
+                android:layout_height="match_parent"
+                android:background="#0000FF"
+                android:bottomRightRadius="10px"
+                android:bottomLeftRadius="10px"
+                android:topLeftRadius="10px"
+                android:topRightRadius="10px"
+                android:id="@+id/btnInGame" />
+
+        </LinearLayout>        
+        
+    <!-- Training-->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="40px"
+            android:id="@+id/linearLayout4">
+            
+            <Button
+                android:text="Training"
+                android:layout_width="400px"
+                android:layout_height="match_parent"
+                android:background="#0000FF"
+                android:id="@+id/btnTraining" />        
+        </LinearLayout>
+        
+    
+</LinearLayout>
